@@ -13,7 +13,7 @@ defaults:
     shell: bash
 
 env:
-  # go needs absolute directories, using the $HOME variable doesn't work here.
+  # go needs absolute directories, using the $HOME variable does not work here.
   GOCACHE: /home/runner/work/go/pkg/build
   GOPATH: /home/runner/work/go
   BITCOIN_VERSION: "22.0"
